@@ -1,0 +1,28 @@
+{
+  "name": "nodeproject",
+  "version": "1.0.0",
+  "description": "reading data from usb port",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "list_ports": "node list_port.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabburi/NodeProject.git"
+  },
+  "author": "nava j.abburi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nabburi/NodeProject/issues"
+  },
+  "homepage": "https://github.com/nabburi/NodeProject#readme",
+  "devDependencies": {
+    "serialport": "^9.0.0"
+  },
+  "dependencies": {
+    "buffers": "^0.1.1",
+    "usb": "^1.6.3",
+    "usb-detection": "^4.9.0"
+  }
+}
